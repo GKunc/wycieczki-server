@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ca0666a-1f3b-4d82-93da-d7640c64b225" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lBptqrhEgNBQtThFRpcKSJkzYP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes/api" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes/api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/routes/api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="direct" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="direct-dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="install FE" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="install" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="install" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="install" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.install" />
+      <item itemvalue="npm.install FE" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.direct" />
+      <item itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ca0666a-1f3b-4d82-93da-d7640c64b225" name="Default Changelist" comment="" />
+      <created>1607080555683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607080555683</updated>
+      <workItem from="1607080556829" duration="1382000" />
+      <workItem from="1607082266138" duration="2037000" />
+      <workItem from="1607554493398" duration="6917000" />
+      <workItem from="1607591844702" duration="69000" />
+      <workItem from="1607632177238" duration="2003000" />
+      <workItem from="1607634298991" duration="12561000" />
+      <workItem from="1607865664257" duration="3978000" />
+      <workItem from="1607872763385" duration="2637000" />
+      <workItem from="1607981140473" duration="14853000" />
+      <workItem from="1608057963426" duration="17307000" />
+      <workItem from="1608144547248" duration="17484000" />
+      <workItem from="1608196033651" duration="416000" />
+      <workItem from="1608197575320" duration="46000" />
+      <workItem from="1608224357304" duration="10385000" />
+      <workItem from="1608247026722" duration="1694000" />
+      <workItem from="1608287028901" duration="611000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/frontend/src/app/wycieczka-comments/wycieczka-comments.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/wycieczka-comments/wycieczka-comments.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/naglowek/naglowek.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/naglowek/naglowek.component.js" />
+        <option value="$PROJECT_DIR$/src/utils/permissionsUtils.js" />
+        <option value="$PROJECT_DIR$/src/utils/requestUtils.js" />
+        <option value="$PROJECT_DIR$/src/utils/passwords.js" />
+        <option value="$PROJECT_DIR$/src/utils/errors.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/wycieczki/wycieczki.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/wycieczki/wycieczki.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/filter-list/filter-list.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/filter-list/filter-list.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/basket/basket.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/basket/basket.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/register-screen/register-screen.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/register-screen/register-screen.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/wycieczka/wycieczka.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/wycieczka/wycieczka.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/admin-panel/admin-panel.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/admin-panel/admin-panel.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/text-search/text-search.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/text-search/text-search.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app-root/app-root.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app-root/app-root.component.spec.js" />
+        <option value="$PROJECT_DIR$/src/routes/api/flashDeals.js" />
+        <option value="$PROJECT_DIR$/src/routes/api/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/api/accounts.js" />
+        <option value="$PROJECT_DIR$/src/routes/api/reservations.js" />
+        <option value="$PROJECT_DIR$/frontend/src/environments/environment.prod.js" />
+        <option value="$PROJECT_DIR$/src/routes/api/trips.js" />
+        <option value="$PROJECT_DIR$/frontend/src/environments/environment.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/admin.guard.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/http-inerceptor.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/filters-provider.service.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/in-memory-wycieczki.service.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/auth-guard.guard.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.module.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app-routing.module.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/decimal-only.directive.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/filters-provider.service.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/auth-service.service.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/admin.guard.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/decimal-only.directive.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/wycieczki.service.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/in-memory-wycieczki.service.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/wycieczki.service.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/auth-service.service.js" />
+        <option value="$PROJECT_DIR$/frontend/e2e/src/app.e2e-spec.js" />
+        <option value="$PROJECT_DIR$/src/routes/index.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/auth-guard.service.js" />
+        <option value="$PROJECT_DIR$/frontend/e2e/src/app.po.js" />
+        <option value="$PROJECT_DIR$/frontend/src/main.js" />
+        <option value="$PROJECT_DIR$/frontend/src/test.js" />
+        <option value="$PROJECT_DIR$/frontend/src/polyfills.js" />
+        <option value="$PROJECT_DIR$/src/middlewares/authMiddleware.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/multi-adder/multi-adder.component.js" />
+        <option value="$PROJECT_DIR$/src/middlewares/adminOnlyMiddleware.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/review-threshold/review-threshold.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/modify-wycieczka/modify-wycieczka.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/multi-adder/multi-adder.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/review-threshold/review-threshold.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/landing-screen/landing-screen.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/rate-wycieczka/rate-wycieczka.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/modify-wycieczka/modify-wycieczka.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/landing-screen/landing-screen.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/reservations-screen/reservations-screen.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/add-flash-deal/add-flash-deal.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/rate-wycieczka/rate-wycieczka.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/reservations-screen/reservations-screen.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/add-wycieczka/add-wycieczka.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/region-select/region-select.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/add-flash-deal/add-flash-deal.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/add-wycieczka/add-wycieczka.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/nav/nav.component.js" />
+        <option value="$PROJECT_DIR$/src/models/user.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/region-select/region-select.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/nav/nav.component.spec.js" />
+        <option value="$PROJECT_DIR$/src/models/trip.js" />
+        <option value="$PROJECT_DIR$/src/models/reservation.js" />
+        <option value="$PROJECT_DIR$/src/models/flashDeal.js" />
+        <option value="$PROJECT_DIR$/src/models/interface.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/login-screen/login-screen.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/date-range-filter/date-range-filter.component.js" />
+        <option value="$PROJECT_DIR$/src/models/permissions.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/login-screen/login-screen.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/price-range/price-range.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/model/wycieczkiSchema.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/date-range-filter/date-range-filter.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/price-range/price-range.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/wycieczka-details-screen/wycieczka-details-screen.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/wycieczka-details-screen/wycieczka-details-screen.component.spec.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/checkout-screen/checkout-screen.component.js" />
+        <option value="$PROJECT_DIR$/frontend/src/app/checkout-screen/checkout-screen.component.spec.js" />
+      </list>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/routes/api/trips.ts</url>
+          <line>98</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/routes/api/trips.ts</url>
+          <line>30</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/routes/api/trips.ts</url>
+          <line>20</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/routes/api/trips.ts</url>
+          <line>15</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/routes/api/trips.ts</url>
+          <line>57</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/routes/api/trips.ts</url>
+          <line>84</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/routes/api/trips.ts</url>
+          <line>125</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
