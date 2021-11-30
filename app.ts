@@ -1,20 +1,19 @@
-import express from 'express';
 import * as path from 'path';
 import * as dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 import cors from 'cors';
-import http from 'http';
+import { createServer } from 'http';
 import { Server } from 'socket.io';
-import mongoose from 'mongoose';
-import Trip from './src/models/trip';
+import { connect } from 'mongoose';
+import express from 'express';
 
 import indexRouter from './src/routes';
 import apiRouter from './src/routes/api';
 
 dotenv.config();
 const app = express();
-const httpServer = http.createServer(app);
+const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
     credentials: true,
@@ -40,7 +39,7 @@ if (!process.env.ATLAS_MONGO_URL) {
   process.exit(1);
 }
 
-mongoose.connect(process.env.ATLAS_MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+connect(process.env.ATLAS_MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     logger('Connected to Mongo Atlas');
   });
