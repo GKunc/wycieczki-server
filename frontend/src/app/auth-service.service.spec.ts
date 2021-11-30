@@ -1,15 +1,17 @@
-import { TestBed } from '@angular/core/testing';
+import { instance, mock } from 'ts-mockito';
+import { HttpClient } from '@angular/common/http';
 import { AuthService } from './auth-service.service';
 
 describe('AuthServiceService', () => {
-  let service: AuthService;
+  let uut: AuthService;
+  let httpClientMock: HttpClient;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(AuthService);
+    httpClientMock = mock<HttpClient>();
+    uut = new AuthService(instance(httpClientMock));
   });
 
   it('should be created', () => {
-    expect(service).toBeTruthy();
+    expect(uut).toBeTruthy();
   });
 });

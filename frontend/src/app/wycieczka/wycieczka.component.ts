@@ -1,6 +1,4 @@
-import {
-  Component, Input, OnInit, Output, EventEmitter, OnChanges, SimpleChanges, OnDestroy,
-} from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter, OnDestroy } from '@angular/core';
 import { Observable } from 'rxjs';
 import { FlashDeal, Ocena, Wycieczka } from '../model/wycieczki';
 import { WycieczkiService } from '../wycieczki.service';
