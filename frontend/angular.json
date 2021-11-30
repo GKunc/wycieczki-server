@@ -105,23 +105,22 @@
             "scripts": []
           }
         },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+        "e2e": {
+          "builder": "@cypress/schematic:cypress",
           "options": {
-            "tsConfig": [
-              "tsconfig.app.json",
-              "tsconfig.spec.json",
-              "e2e/tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "devServerTarget": "WycieczkiApp:serve",
+            "watch": true,
+            "headless": false
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "WycieczkiApp:serve:production"
+            }
           }
         },
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
+        "cypress-run": {
+          "builder": "@cypress/schematic:cypress",
           "options": {
-            "protractorConfig": "e2e/protractor.conf.js",
             "devServerTarget": "WycieczkiApp:serve"
           },
           "configurations": {
@@ -129,8 +128,16 @@
               "devServerTarget": "WycieczkiApp:serve:production"
             }
           }
+        },
+        "cypress-open": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "watch": true,
+            "headless": false
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "WycieczkiApp"
 }

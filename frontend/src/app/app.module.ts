@@ -8,10 +8,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxSliderModule } from '@angular-slider/ngx-slider';
 import { Router } from '@angular/router';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
-import { HttpClientInMemoryWebApiModule, InMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { AngularFireModule } from '@angular/fire';
-import { AngularFireAuthModule } from '@angular/fire/auth';
-import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { AppRoutingModule } from './app-routing.module';
 import { WycieczkiComponent } from './wycieczki/wycieczki.component';
@@ -38,8 +34,6 @@ import { RegisterScreenComponent } from './register-screen/register-screen.compo
 import { LoginScreenComponent } from './login-screen/login-screen.component';
 import { CheckoutScreenComponent } from './checkout-screen/checkout-screen.component';
 import { ReservationsScreenComponent } from './reservations-screen/reservations-screen.component';
-import { InMemoryWycieczkiService } from './in-memory-wycieczki.service';
-import { environment } from '../environments/environment';
 import { AuthService } from './auth-service.service';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { ModifyWycieczkaComponent } from './modify-wycieczka/modify-wycieczka.component';
@@ -99,7 +93,5 @@ import { AddFlashDealComponent } from './add-flash-deal/add-flash-deal.component
   bootstrap: [AppRootComponent],
 })
 export class AppModule {
-  constructor(private router: Router) {
 
-  }
 }
