@@ -1,5 +1,5 @@
 <button class="btn btn-success btn-round btn-floating" (click)="open(content)"><i class="fas fa-gift"></i></button>
-<ng-template #content let-d="dismiss">
+<ng-template id="content" #content let-d="dismiss">
         <div class="modal-header">
             <h4 class="modal-title" id="modal-basic-title">Stwórz promocję</h4>
             <button type="button" class="close" aria-label="Close" (click)="this.cancel()">
@@ -7,7 +7,6 @@
             </button>
         </div>
             <div class="modal-body">
-
                 <div class="form-row">
                     <label>Wybierz wycieczkę</label>
                     <ng-select [(ngModel)]="selectedWycieczkaId" class="w-100">

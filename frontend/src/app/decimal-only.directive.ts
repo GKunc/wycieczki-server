@@ -12,6 +12,7 @@ export class DecimalOnlyDirective {
   @Input() decimals = 0;
 
   private check(value: string): RegExpMatchArray {
+    console.log("CHECK")
     if (this.decimals <= 0) {
       return String(value).match(new RegExp(/^\d+$/));
     }
@@ -20,27 +21,27 @@ export class DecimalOnlyDirective {
     }})?)|((\\d*(\\.\\d{1,${
       this.decimals
     }}))))\\s*$`;
+    console.log(String(value).match(new RegExp(regExpString)))
     return String(value).match(new RegExp(regExpString));
   }
 
-  private run(oldValue): void {
-    setTimeout(() => {
-      const currentValue: string = this.el.nativeElement.value;
+  private run(oldValue, newValue): void {
+      const currentValue: string = newValue;
       if (currentValue !== '' && !this.check(currentValue)) {
+        console.log("OLD")
         this.el.nativeElement.value = oldValue;
       }
-    });
   }
 
-  constructor(private el: ElementRef) {}
+  constructor(public el: ElementRef) {}
 
   @HostListener('keydown', ['$event'])
-  onKeyDown(event: KeyboardEvent): void {
-    this.run(this.el.nativeElement.value);
+  onKeyDown(event: KeyboardEvent, newValue: string): void {
+    this.run(this.el.nativeElement.value, newValue);
   }
 
   @HostListener('paste', ['$event'])
-  onPaste(event: ClipboardEvent): void {
-    this.run(this.el.nativeElement.value);
+  onPaste(event: ClipboardEvent, newValue: string): void {
+    this.run(this.el.nativeElement.value, newValue);
   }
 }
